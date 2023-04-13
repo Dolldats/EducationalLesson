@@ -17,8 +17,8 @@ namespace EducationalLesson.Repositories.Implementation
 
         public UnitOfWork(
             EducationalLessonContext context,
-            IStudentRepository studentRepository,
             IRoleRepository roleRepository,
+            IStudentRepository studentRepository,
             ISubjectRepository subjectRepository,
             IQuestionRepository questionRepository,
             ICommentRepository commentRepository,
